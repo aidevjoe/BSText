@@ -10,7 +10,6 @@ Pod::Spec.new do |spec|
   spec.social_media_url = 'https://a1049145827.github.io'
   spec.source       = { :git => 'https://github.com/a1049145827/BSText.git', :tag => spec.version.to_s }
   spec.description  = 'Attribute Text View for iOS likes YYText'
-  spec.dependency 'YYImage'
   spec.source_files = 'BSText/*.swift', 'BSText/*/*.swift', 'BSText/*.h'
   spec.requires_arc = true
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
